@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'chai',
+    # by adding 'chai' here, now our project is aware of the newly created app named chai
+    # the mentioned above are the cooked-in files and folders except the chai. Cooked-in files or app are the app or files or folders which are created by others or preinstalled i.e. not created by you
 ]
 
 MIDDLEWARE = [
