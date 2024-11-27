@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+{% extends "layout.html" %}
+
+{% comment %} <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,4 +10,13 @@
 <body>
     <h1>All types of available chai</h1>
 </body>
-</html>
+</html> {% endcomment %}
+
+
+{% block title %}
+Chai Page
+{% endblock %}
+
+{% block content %}
+<h1>All chai for you</h1>
+{% endblock %}

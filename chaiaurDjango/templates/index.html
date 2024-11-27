@@ -1,4 +1,7 @@
-<!-- loading the template static asset -->
+{% extends "layout.html" %}  <!--inheriting the properties from layout.html template-->
+
+
+{% comment %} <!-- loading the template static asset -->
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -12,4 +15,13 @@
 <body>
     <h1>Chai aur Django</h1>
 </body>
-</html>
+</html> {% endcomment %}
+
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<h1>Chai aur code home page</h1>
+{% endblock %}
